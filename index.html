@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>atividade 13</title>
-    <script src="script.js"></script>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <div id="arrumadinho">
-        <div>
-            <button type="button" class="letrinha" onclick="Valores()">Valores</button>
-            <button type="button" class="letrinha" onclick="Pagamento()">Folha de Pagamento</button>
-            <button type="button" class="letrinha" onclick="CLT()">Calcular o INSS</button>
-        </div>
+    <header>
+        <h1>Antônia Kiatkoski</h1>
+        <h2>DS24/M2</h2>
+    </header>
+    <div id="Calculadora">
+        <p id="titulo">Calculadora</p>
+        <p>Escolha uma operação</p>
+        <select name="operacao" id="operacao">
+            <option value="soma">Soma</option>
+            <option value="subtracao">Subtração</option>
+            <option value="vezes">Multiplicação</option>
+            <option value="divisao">Divisão</option>
+        </select>
+        <p>Digite o primeiro número:</p>
+        <input type="text" id="numeroA">
+        <p>Digite o segundo número:</p>
+        <input type="text" id="numeroB">
+        <button id="minebotao"onclick="calcular()">Calcular</button>
+        <p id="resultado"> Seu resultado foi:</p>
     </div>
 </body>
 </html>
