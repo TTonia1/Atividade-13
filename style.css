@@ -1,0 +1,19 @@
+#arrumadinho{
+    display: flex;
+    padding-left:35% ;
+    padding-top: 20%;
+}
+body{
+    background-color: thistle;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.letrinha{
+    font-family: 'Times New Roman';
+    font-size: large;
+}
