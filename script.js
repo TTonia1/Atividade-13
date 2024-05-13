@@ -48,16 +48,19 @@ function CLT(){
    if(bruto<= 1000){
     desconto= bruto*0.08;
     liquido= bruto- desconto;
+    console.log(`O nome do funcionario é ${nome}`)
     console.log(`O salario liquido é de ${liquido}; sua taxa de desconto foi de 8% e logo seu desconto foi de ${desconto} `)
    }
    else if(bruto<=1500){
     desconto= bruto*0.085;
     liquido= bruto- desconto;
+    console.log(`O nome do funcionario é ${nome}`)
     console.log(`O salario liquido é de ${liquido}; sua taxa de desconto foi de 8.5% e logo seu desconto foi de ${desconto} `)
    }
    else{
     desconto= bruto*0.09;
     liquido= bruto- desconto;
+    console.log(`O nome do funcionario é ${nome}`)
     console.log(`O salario liquido é de ${liquido}; sua taxa de desconto foi de 9% e logo seu desconto foi de ${desconto} `)
    }
 }
