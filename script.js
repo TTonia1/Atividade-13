@@ -7,9 +7,9 @@ function Valores(){
     let triplo=0;
     let soma = 0;
     let multiplicacao=0;
-    numeroUm = window.prompt(`Digite o primeiro número`);
-    numeroDois= window.prompt(`Digite o segundo número número`);
-    resultado = numeroUm-numeroDois;
+    numeroUm = Number(window.prompt(`Digite o primeiro número`));
+    numeroDois= Number(window.prompt(`Digite o segundo número número`));
+    diferente = (numeroUm - numeroDois);
     window.alert(`A diferença entre as variaveis é: ${diferente}`)
     dobro = numeroUm*2;
     triplo= numeroDois*3;
